@@ -1,12 +1,19 @@
 <template>
   <div id="app">
     <router-view></router-view><!-- 使用路由 -->
+    <Calendar></Calendar>
   </div>
 </template>
 
 <script>
+import Calendar from "../calendar/calendar.vue"
+import Function from "../myselfFunction/function.vue"
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Calendar,
+    Function
+  }
 }
 </script>
 

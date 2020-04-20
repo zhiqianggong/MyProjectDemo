@@ -7,7 +7,15 @@
 ## myselfFunction
 ```
 name: pageTimeout
-function: 页面十五分钟不动退出到index页面
+
+function: 页面十五分钟不动,退出到index页面
+```
+
+## element-ui + vue Table xlsx
+```
+name: element-ui Table-xlsx
+
+function: 饿了么table组件，导出excel表并且不重复
 ```
 
 ## Project setup
